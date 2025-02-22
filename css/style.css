@@ -536,6 +536,10 @@ button {
     position: relative;          /* Ensure positioning works correctly */
     overflow: hidden;            /* Hides parts of the image that overflow */
     transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for zoom effect */
+ background-repeat: no-repeat;
+    background-size: cover;
+    background-position: unset;
+    border-radius: 20px;
 }
 
 /* Image styles */
